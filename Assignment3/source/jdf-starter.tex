@@ -1,0 +1,123 @@
+\documentclass[
+	%a4paper, % Use A4 paper size
+	letterpaper, % Use US letter paper size
+]{jdf}
+
+\addbibresource{ref.bib}
+
+\author{Benjamin Wang}
+\email{bwang421@gatech.edu}
+\title{CS 6460 Assignment 3}
+
+\begin{document}
+%\lsstyle
+
+\maketitle
+
+\section{Journal}
+
+\subsection{Introduction}
+
+The main focus for me in this course is to create a series of video tutorials on YouTube which teach concepts that were difficult for me to grasp in computer science and machine learning. 
+
+In assignment 1, most of my research was focused in finding information on student student engagement for online classes, the transitioning landscape of moving education online, methods for measuring and tracking student performance through online courses, and novel ways of collecting student feedback.
+
+Assignment 2's research was mostly focused on the social dynamics and level of reach for making educational materials available online. This led me to an article which briefly talked about the rising trend of coding boot camps, which then led me to dive deep into research that has been collected on the proven effectiveness of coding boot camps for people with non-technical degrees to transition into the tech industry and obtain higher salaries. Besides the structure and post-graduation data, I found it interesting the wide background that these attendees came from, where most were women and minorities unlike the landscape you see in a university program.
+
+These two assignments have led me to solidify my ideas and approach for my project, so thus my research for assignment 3 went further into what I had touched on with assignment 1: More specifically, I focused my research on course design, best practices \citep{smissen5}, and survey data on what teachers and students believe make an online course effective at engaging and teaching.
+
+There were a few key questions which I was trying to find an answer to before creating my content:
+
+\begin{enumerate}
+    \item What type of lesson content produces the highest amount of student engagement?
+    \item What tools do I need to produce this content, and what is the cost?
+    \item How do I measure how effective my videos are at teaching those that watch them?
+    \item What kind of numbers should I expect in terms of viewer engagement?
+    \item How can I structure my content to minimize dropout yet still be high quality?
+    \item What are realistic teaching goals to cover for casual learners?
+\end{enumerate}
+
+\subsection{Research}
+
+\subsubsection{What content works?}
+
+A large portion of the papers I read mentioned a few key points which were repeated throughout such as incorporating a human element into the class \citep{guo11} \citep{young6}, utilizing a mix of computer generated (powerpoint) and hand-written examples \citep{moore1}, having easy channels for two-way interaction with constant availability \citep{grandzol3}, and being provided clear, concise instructions on how to access information resources \citep{ralston4}.
+
+What I take from this is that I would like to structure my initial video as a breakdown of:
+
+\begin{itemize}
+    \item What the video series will cover and what the student will gain from it.
+    \item What type of background a student should have to be successful
+    \item How the future videos are structured, where information can be found, and how to ask for help.
+\end{itemize}
+
+Similar to how OMSCS courses have an assessment 'quiz' I'd like to direct initial viewers to something similar to ensure they are comfortable enough with the material being covered such that they have enough information to correctly assess if continuing will be a worthwhile investment of their time \citep{picciano2002beyond15}. 
+
+\subsubsection{Tools}
+
+I have a writing/drawing tablet available which I will be using with a combination of PowerPoint, screen recording software, and my own webcam/microphone in order to incorporate the advice of mixing technology in with human interaction \citep{guo11}. 
+
+As for a channel of communication, because the videos will be on YouTube, I haven't figured out how people will be able to ask questions or get feedback outside of the comments section. With that said, I already know of many excellent resources such as Google and StackOverflow which exist to assist in learning so I will be dedicating an entire section to teach viewers how find answers to their questions. Rather than re-inventing the wheel and building a new market, my main focus is to teach people how to fish for themselves and empower them to grow beyond the materials covered in my videos \citep{zhao2005makes}.
+
+\subsubsection{Data, Engagement, and Goals}
+
+I still need to spend more time diving more deeply into the YouTube Analytics page for videos, but thus far it seems most of the data provided on my videos is very superficial in terms of number of views, demographics, retention rate, and such.
+
+As far as measuring or assessing how well a person has learned, I have a few ideas which I have yet to decide which way I want to go.
+
+One reason for this is that when I initially started this course, I was hoping to build a full-on end-to-end course covering the ins and outs of data science from my perspective, but since reading research on the high drop-out rates in most MOOCs \citep{maartje9}, I think a more realistic and effective approach is to take a modular design approach and try my best to make every video self-contained similar to channels I watch and find to be effective learning resources such as 'StatQuest' or 'Numberphile'.
+
+The average person spent about 25 minutes per visit on YouTube in 2011, averaging 5.5 hours per month \href{https://royal.pingdom.com/facebook-youtube-our-collective-time-sinks-stats/}{source}, and today that number has since increased to approximately 20 hours per month \href{https://www.quora.com/What-is-the-average-time-spent-by-an-person-on-YouTube-in-a-day}{source}. 
+
+The videos with the highest retention rate on YouTube vary between a length of 30 seconds to 1.5 minutes \href{https://tubularinsights.com/optimal-video-length-youtube-facebook/}{source}, although by nature of YouTube having such a wide range of content these numbers might be meaningless for designing educational videos, thus data will have to be collected by creating multiple videos of the same topic:
+
+\begin{itemize}
+    \item A control video paced at the planned rate.
+    \item A shorter, faster-paced video that is 3 minutes or less.
+\end{itemize}
+
+I will track the likes/dislikes, comments section, and user retention to determine which method might be more effective or desired. 
+
+It was shown that while students had similar answers when surveyed for what made an online class engaging or effective \citep{means2009evaluation} many of the classes with the desired features did not net the students a higher grade, with only classes that had high instructor interaction having correlation to student performance \citep{jordan10} \citep{smith1}.
+
+\section{Bibliography}
+
+\textbf{\cite{guo11}: How video production affects student engagement: An empirical study of MOOC videos}
+
+The author of this paper analyzed the viewership data from 4 MOOC courses, reviewed lectures of each course, interviewed both students and content creators in order to determine key features that were involved in some classes having higher viewer engagement and retention than others.
+
+\textbf{\cite{cross12}: TypeRighting: Combining the benefits of handwriting and typeface in online educational videos}
+
+The author introduces a novel approach to incorporating a human element to online lectures by having hand written notes transform into type-face. 
+
+\textbf{\cite{leva13}: Pedagogy Meets PowerPoint: A Research Review of the Effects of Computer-Generated Slides in the Classroom}
+
+Research was done on the effectiveness of classrooms employing computer generated content via PowerPoints, screen captures, and videos versus classrooms employing more traditional chalkboard methods. The study showed that students favored the computer generated materials over chalkboard but a blend was most favored.
+
+\textbf{\cite{hew14}: Students’ and instructors’ use of massive open online courses: Motivations and challenges}
+
+The authors surveyed students and teachers in MOOCs to determine their key concerns for online learning. Students' were mainly concerned with getting immediate help when they were stuck on a lesson, and teachers were concerned with finding effective ways to measure hypothetical performance and collect feedback either before or during the course creation and design phase. Professors said it would be ideal have a system where they could know if a particular lesson was not effective immediately rather than after it was uploaded months later and students then brought up questions.
+
+\textbf{\cite{6}: Triangulating Coding Bootcamps in IS Education: Bootleg Education or Disruptive Innovation?}
+
+The authors made a report researching the differences in pay and qualifications of traditional IS workers from 4-year colleges versus those of coding bootcamps, and based on metrics within the study they determined that coding bootcamps were effective and delivering on their promise to help attendees transition into the tech industry.
+
+\textbf{\cite{7}: Choosing Computing: How and Why Women Enter Computing Through Coding Bootcamps}
+
+Many interviews were conducted on the backgrounds and motivations for women entering the tech industry via coding bootcamps, and despite the stigma that the tech industry mistreats women and does not provide equal pay, the key message was that women felt that these issues existed in all industries including the ones they were currently employed in and decided that the risk in lost income and time/tuition invested into school would be worth it. Most felt satisfied with their decision. 
+
+They key point is that the respondents were not motivated by a passion or interest to go into tech, but rather a better balance in their life and higher pay. If coding bootcamps are teaching skills that people are not learning in school, then universities need to adapt or risk losing a large portion of their future income to these technical schools. 
+
+\textbf{\cite{5}: Barriers Faced by Coding Bootcamp Students}
+
+A study was done on boot camp attendees studying their trajectory path leading them to attend a boot camp program versus a traditional 4-year college. The study demonstrated that the majority of the attendees already had 4-year degrees and opted to attend for work-life balance and higher pay. The study demonstrates how alternative learning routes are highly utilized by underrepresented groups in the tech industry and making educational content available for free on the internet is the next step to providing people in less educated countries the resources for upward mobility.
+
+\textbf{\cite{smith1}: How do online course design features influence student performance?}
+
+The authors of this paper ran a study mapping features of different courses with the general correlation of a students grade/performance, and other metrics such as course completion, and matching their initial intention (That is, if a student said in a pre-course survey that they signed up with the intention to complete the course, what percentage of those students actually followed through?).
+
+The results were surprising in that the biggest factor in student performance was having a human element. Courses with high instructor engagement and high volume in communication channels with peers performed significantly better than classes which did not have such features.
+
+\section{References}
+\printbibliography[heading=none]
+\end{document}
