@@ -1,0 +1,11 @@
+#employ personal touch, directly address audience, employ face cam
+
+Hi guys, my name is Ben and welcome to the channel practical data science.
+
+This channel provides videos which are meant to be used as tools to help you learn and understand fundamental concepts in data science and statistics, while also providing
+video demos on how to accomplish data related tasks.
+
+The videos are designed to be self-starting so you can begin at any point and if there is anything that you don't understand, check out the description for links 
+on resources, or ask a question in the comments. Don't be shy! We're all in this together.
+
+Hope you have fun and I look forward to seeing you again in future videos!

@@ -1,0 +1,6 @@
+before we get started with doing actual work, you need to have the right tools available to do that work.
+
+Thankfully, there are a lot of smart, hard-working people out there in the data science community who have made that process extremely easy.
+
+In this video, I'll give you a quick overview of Anaconda, how to install and run it, and we'll walk through a really easy one-line "hello world" program 
+to make sure everything is working as expected.
