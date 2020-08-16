@@ -1,0 +1,86 @@
+Stats: Hypothesis Testing, Error Types, and Likelihood explained!
+
+Probability
+
+coin toss example: heads or tails, what is the probability that a coin toss will be heads? 
+
+50%
+
+likelihood: what is the likelihood that I can guess a coin flip correctly as heads or tails? also 50%
+
+But to illustrate this better, let's use 2 coins.
+
+What is the probability that if I flip two coins, I will have 2 heads? Well, it would be [HH] [HT] [TH] [TT], or 50% * 50% = 25%
+
+If a coin is flipped twice, what is the % that I will guess the correct number of heads? Well, the number of 
+
+if I <flip 3 times> what is the chance I get 3 heads? 12.5% 
+
+If I <flip 3 times> and get 3 heads, what is the chance the coin is rigged? 
+
+
+calculate probability = chance of something happening is given
+
+calculate likelihood = result of something is given (we are trying to reverse engineer the probability) 
+
+
+#What if I have a rigged coin? Instead of probability p = 50%, we want to estimate what the p is for this coin.
+
+Let's say I flip a rigged coin 100 times and get heads 70 times. 
+
+The likelihood of getting 70 on a normal curve with mean 50 is 
+
+script:
+
+NO MATH, NO THEORY, JUST PLAIN ENGLISH
+
+Let's take a look at the example of a coin, you flip a coin and what's the chance you get heads? it's 1/2, or 50% right? Because a coin can either be heads or tails.
+
+We're assuming here that the coin is a FAIR coin. That is the NORMAL assumption people always make. In STATISTICS, the idea that the coin we are using is a FAIR COIN
+
+is what is called a 'NULL HYPOTHESIS' that is, assuming a coin is rigged is a hypothesis we would have to test.
+
+How do we test it? 
+
+Well, a fair coin SHOULD have a even split in results when we flip the coin a bunch of times. Let's say we flip the coin 10 times, we'd expect to get 5 heads and 5 tails.
+
+Ok, but lucky events do happen. Sometimes you might end up with 6 heads, and 4 tails, or maybe 7 heads and 3 tails, or crazier yet, 10 heads and 0 tails, even with a fair coin.
+
+We circumvent this type of error by fliping more times. Let's say we flip a coin 1000 times. Now, the idea of getting 800 heads and 200 tails seems way less likely than 
+
+it was getting 8 heads and 2 tails, right? 
+
+Where am I going with this? Well, when it comes to probability, if I ask you to guess the result of a fair coin flip, your chances of being correct are given. This chance
+
+is called the probability or p. 
+
+p doesn't have to be 50/50. It could be anything really, like say I flipped a coin twice, what are the chances your guess is correct? Well, that depends now on your answer.
+
+likelihood on the otherhand, is when we don't know what p is and we try to guess it. 
+
+Let's say we had a rigged coin, and I told you that I flipped it 1000 times and got 800 heads.
+
+The chance that this coin happens to still be fair is the chance of getting 800 or more heads flipping a fair coin 1000 times. This is VERY VERY LOW.
+
+This 'chance' of getting 800 heads on 1000 flips when the fair coin has a probability of 50% to hit either side, is called the LIKELIHOOD. 
+
+Now, LIKELIHOOD can be used to estimate what the REAL p is for a rigged coin. In this case with 1000 coin flips, the highest likelihood for our rigged coin happens to be when
+
+p is 80% to land a heads. 
+
+So probability to land a heads is 80%
+
+Probability to land 800 or more heads in 1000 tries is 50%. 
+
+1 in 2,600 chance to die from choking on food
+
+1 in 53,000 chance to die from bee/wasp/hornet attack
+
+1 in 180,000 chance to die from a lightning strike
+
+1 in 11,000,000 chance to die in a plane crash.
+
+1 in 1,267,650,600,228,229,401,496,703,205,376 chance to get 100 heads in a row. or 1 in 1.26 nonillion!!!! This means it is highly likely that our coin is rigged.
+
+
+Imagi

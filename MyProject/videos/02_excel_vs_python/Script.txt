@@ -1,5 +1,0 @@
-In this video, I hope to provide a high level overview of the roles that tools like excel and python play in data analysis
-
-By the end of this video, I hope to clearly explain how and when I use each tool so you'll be able to make a better decision on which to use.
-
-

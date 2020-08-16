@@ -1,0 +1,49 @@
+In this video, I'll be showing you how to get started with working with images in python.
+
+I'll be using jupyter notebook for my examples which comes with Anaconda. 
+
+If you want to learn how to install Anaconda, I'll have a link to a tutorial in this
+video's description. 
+
+If you're interested in learning a little more about the technical details working with images in python, there is a video in my channel which goes through that.
+
+Now let's get into it.
+
+Here I have an image of a cat, and I'd like to read this cat image into my python program in order to do things with it.
+
+The first thing we have to do is install a library for working with images because it doesn't come native to Anaconda.
+
+Now let's open up the prompt and type this command:
+
+conda install -y py-opencv
+
+Once this is finished we can go onto the next step.
+
+------
+
+
+Part 2
+
+So as you can see, I've created a jupyter notebook in the same directory as where my cat image is.
+
+First I'll have to import my libraries:
+
+import numpy as np
+import cv2 as cv
+
+That's all we're going to need in order to run this exercise.
+
+Now let's first start by reading in my cat image.
+
+Now let's display the cat image. This command here, waitKey(0) and destroyAllWindows(0) is just something you need to do with this library.
+
+If you don't like typing that every time, you can create a function which does all of that for you.
+
+Let's call this function display(window_name, image_path)
+
+--------
+
+Cool, now let's cover a few simple operations like cropping an image and messing around with colors. 
+
+
+

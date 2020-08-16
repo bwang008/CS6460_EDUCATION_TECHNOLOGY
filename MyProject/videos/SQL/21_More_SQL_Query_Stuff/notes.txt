@@ -1,0 +1,5 @@
+exists
+not in
+group by
+having
+case

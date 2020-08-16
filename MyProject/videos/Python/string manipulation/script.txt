@@ -1,0 +1,29 @@
+Ok, this is going to be a quick video on how to work with strings in python.
+
+This video is meant for beginners who are trying to get started in python and maybe you're trying to process some data so a couple of things I'll cover in this tutorial:
+
+1. using stride to grab every X letter and reverse a string
+
+2. finding and replacing substrings
+
+3. finding and extracting substrings
+
+4. splitting records in a string by a delimiter
+
+5. How to look-up other commands with help
+
+
+----------
+[1]
+Strings are viewed as arrays and lists, and thus operations affecting these data types can easily be used on strings in python.
+
+One quick way to reverse a string is to treat it like a reversed list so we'll use something called a stride.
+
+For a string which I'll specify as testStr = "This is my string" 
+
+So how do we reverse a string in python? The same way we reverse a list.
+
+If I want to pass through all values in a list, I simply use testStr[::]
+
+[2] 
+testStr.replace(

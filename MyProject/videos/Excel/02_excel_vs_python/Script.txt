@@ -1,0 +1,53 @@
+Intro:
+Hello, in this video I will be covering the topic of excel versus python for handling tasks of data analytics. By the end of this video, you should have a clear understanding of the pros and cons of each, and be able to decide which of the two is right for you.
+
+Outline:
+Here are the following topics that will be covered. First I'll talk about the pros of each tool, then I will cover the cons, and finally provide some pointers for deciding which of the two you should choose.
+
+Excel Pros:
+One of the biggest advantages of excel is that it comes with a user interface which allows you to do tasks through the click of a button which would otherwise require you to write lines of code in python to accomplish. From this aspect, excel provides a ton of convenience and allows you to work more efficiently.
+
+Because excel has a UI, that makes it easier to learn. Pushing a button is more straightforward than learning how to code.
+
+Another advantage of excel is how  easy it is to open and view files, double clicking is much easier than typing a command to open.
+
+Finally, and probably the biggest pro for excel is that it's widely adopted and understood outside of the technical community. People working in accounting, HR, business, project management, and any other fields might not know how to code, but they most likely have worked with excel. Let's say I want to send a business report to someone that dynamically updates based on the input data, I can write my processes in an excel sheet, send it to someone in an email, and allow them to run the processes through a button so that the updated report and visuals are presented to them on demand. 
+
+This is much, much easier to implement than say, building a back-end process to run on a webserver so that this said person can get the same results, or having to generate and send out the report yourself especially if this is a small request which won't be incorporated for day-to-day operations.
+
+Excel Cons:
+Can't handle large data sets, it can't port to other programs like my java program can't import an excel sheet to run a macro that I wrote, for that I'd want to use python.
+
+It can't run outside of windows, so if you're using a mac or linux OS, you'd have to emulate windows to use excel, which leads to a lot of jumping through hoops.
+
+It's pretty much only good with table-structured data. If you try to analyze an XML file, it's going to be tough, whereas python has a lot of tools to deal with all sorts of data formats.
+
+Long story short: Since most data is formatted like tables in the business world, excel is great for quick analysis and developing tools, but can't scale out to deliver production quality solutions.
+
+Python Pros:
+To be brief, the pros of python are that it can do everything excel can do, plus more. 
+
+It would take me too long to cover all of the things you can do with python, but where excel is primarily used as a tool to work with data, excel can also do things like game development, image processing, machine learning, and so, so much more. 
+
+Another big pro is that python isn't limited by platform so say you want to create a dashboard or report for a group of users to look through, you'd want to build something that is scalable and able to handle all of those users. The earlier example I mentioned with excel could be thought of as the development phase. 
+
+For example, let's say you create a report or dashboard for someone in excel, that person shows it to their teammates who love it and then they present it to their manager saying it's allowing them to work twice as fast from not having to aggregate and generate these reports manually, you're suddenly a superhero and everyone loves you, but now you have a problem: Do you send each person this excel sheet so that they can run it themselves? What if you ever need to make an update? Do you send an email to everyone and ask them to use this 'new' version and delete the old one? What about bug reporting, or tracking crashes? 
+
+This is a key limitation of excel.
+
+Python Cons:
+One thing that sucks about python is that you have to learn to code. Coding can be hard. 
+You also get no UI, which really sucks since it can't be understated how nice it is to be able to visually see the data lined up, maybe you might spot a weird value on a spreadsheet in excel, but you'd have to run some filters or queries in python, or discover those issues when you're debugging your code.
+
+If you're working with smaller datasets, python can be really tedious. Let's say I need to open a lot of different spreadsheets which have like 500 records each, and peruse through each, you wouldn't want to use python for that because it would suck.
+
+Which to learn?:
+
+I think it's important to know both, but if you don't know either and want to pick a starting point, I highly recommend you use excel.
+
+You're most likely not going to be dealing with big data or deep learning right off the bat, so excel should work just fine.
+
+On top of that, you can get your toes wet with programming using excel's language VBA.
+
+Which to choose?:
+
